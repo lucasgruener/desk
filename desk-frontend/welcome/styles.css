@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+}
+
+
+.column {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+img{
+    height: 300px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+button#createRoomButton {
+    height: 40px;
+    border: none;
+    background-color: #0d3b66;
+    border-radius: 2px;
+    color: white;
+}
+
+button#joinRoomButton {
+    height: 40px;
+    border: none;
+    background-color: #f95738;
+    border-radius: 0px 0px 3px 3px;
+    color: white;
+}
+
+input#roomIdInput {
+    height: 35px;
+    /* border: #878484; */
+    border: solid 1px #d3d3d3;
+    border-radius: 3px 3px 0px 0px;
+    background-color: #ffffffc4;
+}
+label {
+    color: white;
+}
+body {
+    background-color: #010101;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    
+    margin-left:80px;
+    margin-top: 80px;
+    font-size: 50px;
+    color: white;
+
+}
+button{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+
+    h1{
+    
+        margin-left:40px;
+        color: white;
+    
+    }
+    .container {
+        flex-direction: column
+    }
+
+}
