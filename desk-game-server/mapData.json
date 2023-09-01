@@ -1,0 +1,219 @@
+{
+  "PUGF": {
+    "key": "long-table",
+    "x": 249.08256880733944,
+    "y": 372,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "RSKU": {
+    "key": "white-chair",
+    "x": 176.78854625550662,
+    "y": 364,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "HYAR": {
+    "key": "window",
+    "x": 138.1559633027523,
+    "y": 70,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "VNFO": {
+    "key": "window",
+    "x": 383,
+    "y": 80,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "RUMX": {
+    "key": "retro-computer",
+    "x": 223.55963302752292,
+    "y": 355,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "NKEV": {
+    "key": "coffe-cup",
+    "x": 225.69546120058567,
+    "y": 390,
+    "scaleX": -1,
+    "scaleY": 1
+  },
+  "EHZT": {
+    "key": "plant",
+    "x": 45.76651982378854,
+    "y": 140,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "JRWJ": {
+    "key": "window",
+    "x": 600,
+    "y": 624,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "MXAJ": {
+    "key": "window",
+    "x": 853,
+    "y": 625,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "FDNV": {
+    "key": "window",
+    "x": 1115,
+    "y": 622,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "CSTV": {
+    "key": "long-table",
+    "x": 252.21815519765744,
+    "y": 726,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "OOHI": {
+    "key": "soda-machine",
+    "x": 729.5607613469986,
+    "y": 665,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "OMYD": {
+    "key": "computer",
+    "x": 232.45241581259154,
+    "y": 717,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "ABOP": {
+    "key": "white-chair",
+    "x": 178.09663250366032,
+    "y": 727,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "ZUNH": {
+    "key": "long-table",
+    "x": 252.0497803806735,
+    "y": 540,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "QMQF": {
+    "key": "white-chair",
+    "x": 180.89311859443632,
+    "y": 532,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "XYTM": {
+    "key": "computer",
+    "x": 229.3191800878477,
+    "y": 527,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "KAXP": {
+    "key": "long-table",
+    "x": 933,
+    "y": 829,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "MLQX": {
+    "key": "long-table",
+    "x": 933.4040995607613,
+    "y": 920,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "QHLU": {
+    "key": "long-table",
+    "x": 933.4040995607613,
+    "y": 1012,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "JORF": {
+    "key": "white-chair",
+    "x": 851.376281112738,
+    "y": 821,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "EYUX": {
+    "key": "white-chair",
+    "x": 850.3879941434847,
+    "y": 916,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "WPZX": {
+    "key": "white-chair",
+    "x": 849.3997071742314,
+    "y": 1005,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "TUTD": {
+    "key": "white-chair",
+    "x": 1017.4084919472914,
+    "y": 819,
+    "scaleX": -1,
+    "scaleY": 1
+  },
+  "LCKC": {
+    "key": "white-chair",
+    "x": 1014.4436310395315,
+    "y": 914,
+    "scaleX": -1,
+    "scaleY": 1
+  },
+  "GCHI": {
+    "key": "white-chair",
+    "x": 1016.4202049780381,
+    "y": 1002,
+    "scaleX": -1,
+    "scaleY": 1
+  },
+  "FHLR": {
+    "key": "white-chair",
+    "x": 327.84348641049667,
+    "y": 369,
+    "scaleX": -1,
+    "scaleY": 1
+  },
+  "ZXWP": {
+    "key": "retro-computer",
+    "x": 283,
+    "y": 712,
+    "scaleX": -1,
+    "scaleY": 1
+  },
+  "BEZB": {
+    "key": "retro-computer",
+    "x": 276.56880733944956,
+    "y": 358,
+    "scaleX": -1,
+    "scaleY": 1
+  },
+  "JDCT": {
+    "key": "coffe-cup",
+    "x": 235.24038950294016,
+    "y": 564.6447698015264,
+    "scaleX": -1,
+    "scaleY": 1
+  },
+  "BHXM": {
+    "key": "plant",
+    "x": 459.34801762114535,
+    "y": 143,
+    "scaleX": 1,
+    "scaleY": 1
+  }
+}
