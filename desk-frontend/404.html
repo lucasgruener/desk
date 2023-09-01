@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+</head>
+
+<body>
+    <script>
+        // Get the full URL
+        var url = window.location.href;
+
+        // Split the URL by '/'
+        var urlParts = url.split('/');
+
+        // Extract the code (last part of the URL)
+        var codeToExtract = urlParts[urlParts.length - 1];
+
+        // Redirect to the page with the extracted code as a query parameter
+        window.location.href = "?code=" + codeToExtract;
+    </script>
+</body>
+
+</html>

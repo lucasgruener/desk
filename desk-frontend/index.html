@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lucas's Virtual Office</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id='placeholder'></div>
+    <div class="start-container" id='start'>
+        <h4>Select your video and audio devices</h1>
+        <video id="cameraPreview" autoplay playsinline></video>
+        <div id="deviceSelection">
+            <div class='deviceSelect'>
+                <button class="comms-button-start active" id="selectAudio" style="background-image: url('./images/microfone-icon.png')" ></button>
+                <select id="audioSelect"></select>
+            </div>
+            <div class='deviceSelect'>
+                <button class="comms-button-start active" id="selectVideo" style="background-image: url('./images/camera-icon.png')"></button>
+                <select id="videoSelect"></select>
+            </div>
+            <!-- <button id="startButton">Start</button> -->
+        </div>
+        <button id="joinRoom" class="connect-wallet">Enter</button>
+    </div>
+
+   
+
+    <div class="sprite-container" id="sprite-container">
+        <div class="row">
+            <div id="sprite-options" class="sprite-options">
+                <!-- The sprite options will be added here dynamically -->
+            </div>
+        </div>
+        <div class="row2">
+            <div class='title'>
+                <h3>Premium furniture</h3> <button class='connect-wallet' id="mint">Mint</button>
+            </div>
+            <div id="address">0x3...4hc</div>
+            <button class='connect-wallet' id="connect-metamask">Connect to Metamask</button>
+            <div id="error" class="error">No premium furniture found, try minting one</div>
+            <div id="custom-sprite-options" class="sprite-options">
+                <!-- The sprite options will be added here dynamically -->
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class='video-wrapper' id='wrapper'></div>
+
+
+    <div class='editor-wrapper' id='editor-wrapper'>
+        <button class="editor-button" style="background-image: url('./images/trash-icon.png')"
+            id="delete-button"></button>
+        <button class="editor-button" style="background-image: url('./images/rotate-icon.png')"
+            id="rotate-button"></button>
+    </div>
+
+
+    <div class='control-wrapper' id='control'>
+        <div class="control-pannel">
+            <button class="comms-button active" style="background-image: url('./images/microfone-icon.png');"
+                id="toggleAudioButton"></button>
+            <button class="comms-button active" style="background-image: url('./images/camera-icon.png');"
+                id="toggleVideoButton"></button>
+            <button class="comms-button active" style="background-image: url('./images/edit-icon.png'); "
+                id="editor-button"></button>
+            <button class="comms-button" style="background-image: url('./images/full-screen-icon.png');"
+                id="fullscreen-button"></button>
+        </div>
+    </div>
+
+
+    <div class="joystick-wrapper">
+        <div class="joystick-container">
+            <div class="joystick"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    <script src="dist/bundle.js"></script>
+
+</body>
+
+</html>
