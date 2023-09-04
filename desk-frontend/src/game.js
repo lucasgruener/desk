@@ -137,6 +137,15 @@ export function joinGame(roomCode) {
             spriteOption.addEventListener('click', (event) => {
                 selectedSpriteKey = event.target.getAttribute('data-key');
 
+                 if (selectedSpriteOption){
+                    selectedSpriteOption.style.backgroundColor = '';
+                    selectedSpriteOption.style.borderRadius= '';
+                    selectedSpriteOption = null
+                }
+                spriteOption.style.backgroundColor = '#ffffff91'
+                spriteOption.style.borderRadius= '5px';
+                selectedSpriteOption = spriteOption
+
             });
 
             folder.appendChild(spriteOption);
@@ -159,6 +168,14 @@ export function joinGame(roomCode) {
             spriteOption.addEventListener('click', (event) => {
                 selectedSpriteKey = event.target.getAttribute('data-key');
 
+                if (selectedSpriteOption){
+                    selectedSpriteOption.style.backgroundColor = '';
+                    selectedSpriteOption.style.borderRadius= '';
+                    selectedSpriteOption = null
+                }
+                spriteOption.style.backgroundColor = '#ffffff91'
+                spriteOption.style.borderRadius= '5px';
+                selectedSpriteOption = spriteOption
             });
 
             folder.appendChild(spriteOption);
@@ -279,9 +296,9 @@ export function joinGame(roomCode) {
                 player.play('default-animation');
                 player.x = data.x;
                 player.y = data.y;
-              
+
                 if (data.playerId == playerId) {
-                    
+
                     const mainPlayer = players.get(playerId)
                     this.cameras.main.startFollow(mainPlayer);
                 }
@@ -332,22 +349,24 @@ export function joinGame(roomCode) {
                 const { spriteId, key, x, y, scaleX, scaleY } = data;
 
                 if (!spritesAdded[key]) {
-                    
+                
                     spritesAdded[key] = true;
                     loadDynamicImage(key, x, y, spriteId, scaleX, scaleY)
                         .then((response) => {
                             if (response === true) {
-                             
-                                setTimeout(function () {
-                                    const newSprite = gameScene.add.sprite(x, y, key);
-                                    newSprite.setDepth(5)
-                                    newSprite.spriteId = spriteId
-                                    newSprite.addIndicator = addSpriteOutline;
-                                    newSprite.removeIndicator = removeSpriteOutline;
-                                    newSprite.setScale(scaleX, scaleY)
-                                    newSprite.setInteractive();
-                                }, 1000)
-
+                                // while (!gameScene.textures.exists(key)) {
+                                    setTimeout(function () {
+                                        // if (gameScene.textures.exists(key)) {
+                                            const newSprite = gameScene.add.sprite(x, y, key);
+                                            newSprite.setDepth(5)
+                                            newSprite.spriteId = spriteId
+                                            newSprite.addIndicator = addSpriteOutline;
+                                            newSprite.removeIndicator = removeSpriteOutline;
+                                            newSprite.setScale(scaleX, scaleY)
+                                            newSprite.setInteractive();
+                                        // }
+                                    }, 1000)
+                                // }
                             } else {
                                 console.error('failed to load sprites')
                             }
@@ -603,9 +622,12 @@ export function joinGame(roomCode) {
         if (pointer.isDown && editorMode) {
             const worldX = pointer.worldX;
             const worldY = pointer.worldY;
-            // if (selectedSpriteOption) {
-            //     selectedSpriteOption.removeIndicator(); // You need to implement this method
-            // }
+            if (selectedSpriteOption) {
+                selectedSpriteOption.style.backgroundColor = '';
+                selectedSpriteOption.style.borderRadius= '';
+                selectedSpriteOption = null
+                 // You need to implement this method
+            }
 
 
 
